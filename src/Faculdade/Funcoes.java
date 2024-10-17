@@ -7,15 +7,14 @@ public class Funcoes {
     }
 
     public static double calcularImc(double peso, double altura) {
-        return peso / (altura * altura);
+        return peso / (altura * altura); //calculo do imc
     }
 
-    public static String avaliarAluno(Aluno aluno) {
-        if (aluno.getNota() >= 5 && aluno.getPercentualPresenca() >= 75) {
+    public static String avaliarAluno(Aluno aluno) { 
+        if (aluno.getNota() >= 5 && aluno.getPercentualPresenca() >= 75) { //condição para presença de 75%
             return "Aprovado";
         } else {
             return "Reprovado";
         }
     }
 }
-//Olá mundo

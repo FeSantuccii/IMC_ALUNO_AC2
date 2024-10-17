@@ -13,7 +13,7 @@ public class Pessoa {
         this.altura = altura;
     }
 
-    //GET AND SET
+    //GET E SET
     public String getNome() {
         return nome;
     }
